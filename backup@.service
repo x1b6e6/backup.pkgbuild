@@ -1,0 +1,7 @@
+[Unit]
+Description=Backup by trigger %i
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/backup /etc/backup/%i
+
