@@ -1,4 +1,4 @@
-pkgname='backup'
+pkgname='btrfs-backup'
 pkgver='0.3'
 pkgrel=1
 arch=('any')
